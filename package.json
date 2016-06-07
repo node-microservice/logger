@@ -1,0 +1,31 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "description": "Logger for koa microservices",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bunyan": "1.8.1",
+    "service-logging-streams": "2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-microservice/logger.git"
+  },
+  "keywords": [
+    "logger",
+    "koa"
+  ],
+  "author": "Osama Sidat <oosidat@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-microservice/logger/issues"
+  },
+  "homepage": "https://github.com/node-microservice/logger#readme"
+}
